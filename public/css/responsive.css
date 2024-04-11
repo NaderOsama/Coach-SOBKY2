@@ -1,0 +1,353 @@
+
+
+@media screen and (max-width: 992px) {
+
+  /* Adjustments for smaller screens up to 992px */
+  .section__container {
+    max-width: 95% !important;
+
+  }
+
+  .nav__links {
+    display: none;
+  }
+
+  .header__content h4 {
+    font-size: 1.5rem;
+    /* Adjust font size for smaller screens */
+  }
+
+  .header__content h1 {
+    font-size: 2rem;
+    /* Adjust font size for smaller screens */
+  }
+
+  .header__content p {
+    font-size: 0.9rem;
+    /* Adjust font size for smaller screens */
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    /* Adjust button font size for smaller screens */
+  }
+        #home {
+          text-align: center;
+          height: auto;
+          margin: 10px auto;
+          padding: 1rem;
+        }
+
+        #home iframe {
+          width: 95%;
+          height: 250px;
+          margin: 0 auto;
+        }
+
+        .header__container {
+          display: block;
+        }
+
+        .header__content {
+          margin-bottom: 3rem;
+        }
+
+
+
+        .header__image::before {
+          content: "o";
+          position: absolute;
+          top: 8%;
+          left: 50%;
+          transform: translateX(-50%);
+          font-size: 36rem;
+          font-weight: 400;
+          line-height: 15rem;
+          color: var(--secondary-color);
+          opacity: 0.1;
+          z-index: -1;
+        }
+
+        .header__content {
+          text-align: center;
+          padding: 20px 0;
+        }
+
+        .header__content h4 {
+          font-size: 1.3rem;
+
+          /* Further adjust font size for smaller screens */
+        }
+
+        .header__content h1 {
+          font-size: 3.8rem;
+        }
+
+        .header__content p {
+          font-size: 1.2rem;
+          /* Further adjust font size for smaller screens */
+        }
+        .explore__header {
+          display: none;
+        }
+
+        .btn {
+          font-size: 0.8rem;
+          font-size: 18px;
+        }
+
+        #details .card {
+
+          margin: 10px 0;
+          text-align: right;
+
+        }
+}
+
+@media screen and (max-width: 768px) {
+
+  nav {
+    padding: 1rem 0;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav__logo {
+    max-width: 200px;
+  }
+
+  /* Adjustments for smaller screens up to 768px */
+  .section__container {
+    max-width: 95% !important;
+    padding: 0;
+  }
+
+  #details h2,
+  .section-heading-title {
+    font-size: 2rem;
+  }
+
+  .nav__links {
+    display: none;
+  }
+
+  .header__content {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .header__content h4 {
+    font-size: 1.3rem;
+
+    /* Further adjust font size for smaller screens */
+  }
+
+  .header__content h1 {
+    font-size: 3.8rem;
+  }
+
+  .header__content p {
+    font-size: 1.2rem;
+    /* Further adjust font size for smaller screens */
+  }
+
+  .btn {
+    font-size: 0.8rem;
+    font-size: 18px;
+  }
+
+  #details .card {
+
+    margin: 10px 0;
+    text-align: right;
+
+  }
+
+  .h5,
+  h5 {
+    font-size: 1.1rem;
+  }
+
+  #details .card p {
+    padding: 0;
+    margin: 0 20px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #details .card-header p::before {
+    margin: auto 8px;
+    position: absolute;
+    right: 0;
+  }
+
+  #details .card-body {
+    padding-right: 20px;
+  }
+
+  #details ul li {
+    font-size: 18px;
+  }
+
+  .video_swiper {
+    width: 100%;
+  }
+
+  #transformation {
+    padding-bottom: 80px;
+    background: linear-gradient(90deg, #afa5c7a0, transparent);
+  }
+
+  #transformation ul {
+    grid-template-columns: repeat(2, 1fr);
+    /* Adjust the number of columns */
+    width: auto;
+    /* Adjust width to fit screen */
+    padding: 0;
+    /* Add padding for better spacing */
+  }
+.ard-cash {
+
+    max-width: 60%;
+}
+  figcaption {
+    font-size: 1rem;
+    /* Adjust font size for smaller screens */
+  }
+
+  #feedback {
+    background-color: #f8f9fa;
+  }
+
+  #feedback .explore__header {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  #feedback .card__images {
+
+    margin-bottom: 40px;
+  }
+
+  #feedback {
+    padding: 1rem;
+  }
+
+  .explore__nav__images {
+    display: none;
+  }
+
+  .section__header {
+    margin-bottom: 0;
+
+  }
+
+  .section__subheader {
+    font-size: 1.2rem;
+  }
+
+  .price__grid {
+    grid-template-columns: 1fr;
+    /* Change to single column layout for smaller screens */
+    gap: 4rem;
+    /* Reduce the gap between cards */
+  }
+
+  .price__card {
+    padding: 2rem;
+    /* Adjust padding for smaller screens */
+  }
+
+  .join__image {
+    margin-top: 1rem;
+    position: relative;
+    margin-bottom: 0;
+    height: 73vh;
+  }
+
+  .join__grid {
+    bottom: 0;
+    text-align: right;
+
+  }
+
+  .join__card {
+
+    padding: 5px 0;
+  }
+
+  .footer__container {
+    grid-template-columns: 400px repeat(3, 1fr);
+  }
+
+  .footer {
+    padding: 20px;
+    display: block;
+  }
+
+  .footer__socials {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 15px;
+  }
+
+  .footer {
+    margin-top: 50px;
+
+  }
+    #packkage .price__card .mt-10 {
+      margin-top: 35px;
+    }
+    #packkage .buttons    {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #transformation figure {
+      margin: 1px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 20px;
+    }
+    #qlwapp {
+      position: fixed;
+      bottom: 70px;
+      left: 20px;
+    }
+
+.countdown-wrapper {
+    bottom: 40px;
+}
+.countdown-content {
+  display: block;
+}
+.countdown-content p{
+  font-size: 18px;
+}
+.button-92 {
+    top: 10%;
+    right: 15px;
+    z-index: 100000;
+}
+}
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+  #transformation ul {
+    grid-template-columns: repeat(1, 1fr);
+    width: auto;
+    padding: 0;
+  }
+
+  #transformation ul li {
+    margin-top: 1rem;
+  }
+
+
+}

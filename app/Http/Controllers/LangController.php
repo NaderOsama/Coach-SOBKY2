@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Session;
+
+class LangController extends Controller
+{
+    public function change($lang){
+        Session::put('lang',$lang);
+        return redirect('/');
+
+    }
+}
