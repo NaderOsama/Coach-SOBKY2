@@ -41,8 +41,7 @@
         <!-- css  link  -->
         <link rel="stylesheet" href="{{asset('css/swiper-bundle.min.css') }}" />
         <link rel="stylesheet" href="{{ asset('css/styles' . (app()->isLocale('ar') ? 'ar' : 'en') . '.css') }}">
-
-        <link rel="stylesheet" href="{{asset('css/responsive.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/responsive' . (app()->isLocale('ar') ? 'ar' : 'en') . '.css') }}">
         <title>فورمتك معانا|سبكي كوتش</title>
         <meta
         name="description"
